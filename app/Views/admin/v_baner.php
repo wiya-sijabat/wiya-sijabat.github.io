@@ -1,0 +1,176 @@
+<?= $this->extend('templet/template_backend_admin') ?>
+<?= $this->section('content') ?>
+
+<div class="col sm-12">
+    <div class="card card-info">
+        <div class="card-header">
+            <h3 class="card-title">Daftar <?= $subtitle ?></h3>
+            <div class="card-tools">
+                <div class="card-tools">
+                    <button type="button" class="btn btn-light btn-xs" data-toggle="modal" data-target="#add"><i class="fas fa-plus"> Add</i>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+        <div class="card-body p-0">
+            <?php
+            if (session()->getFlashdata('tambah')) {
+                echo '<div class="alert alert-success alert-dismissible">
+                  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                  <h5><i class="icon fas fa-check"></i>';
+                echo session()->getFlashdata('tambah');
+                echo '</h5></div>';
+            }
+
+            if (session()->getFlashdata('edit')) {
+                echo '<div class="alert alert-warning alert-dismissible">
+                  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                  <h5><i class="icon fas fa-check"></i>';
+                echo session()->getFlashdata('edit');
+                echo '</h5></div>';
+            }
+
+            if (session()->getFlashdata('delete')) {
+                echo '<div class="alert alert-danger alert-dismissible">
+                  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                  <h5><i class="icon fas fa-check"></i>';
+                echo session()->getFlashdata('delete');
+                echo '</h5></div>';
+            }
+            ?>
+            <table class="table table-sm">
+                <thead>
+                    <tr>
+                        <th width="70px">#</th>
+                        <th>Keterangan</th>
+                        <th class="text-center">Baner</th>
+                        <th width="100px" class="text-center">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php $no = 1;
+                    foreach ($baner as $key => $value) { ?>
+                        <tr>
+                            <td><?= $no++ ?></td>
+                            <td><?= $value['ket'] ?></td>
+                            <td class="text-center"><img src="<?= base_url('assets/' . $value['baner'])  ?>" width="200px" height="130px"></td>
+                            <td class="text-center">
+                                <button type="button" class="btn btn-warning btn-xs" data-toggle="modal" data-target="#edit<?= $value['id_baner'] ?>"><i class="fas fa-edit"></i>
+                                </button>
+                                <button type="button" class="btn btn-danger btn-xs" data-toggle="modal" data-target="#delete<?= $value['id_baner'] ?>"><i class="fas fa-trash"></i>
+                                </button>
+                            </td>
+                        </tr>
+                    <?php } ?>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Modal add -->
+<div class="modal fade" id="add">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Add Baner</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <?php echo form_open_multipart('baner/insertData') ?>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label>Keterangan</label>
+                    <input name="ket" class="form-control" placeholder="Keterangan" required>
+                </div>
+
+                <div class="form-group">
+                    <label>File Baner (File Max 1024kb)</label>
+                    <input type="file" accept="image/*" id="preview_gambar" name="baner" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Preview</label>
+                    <img id="gambar_load" src="" width="250px" height="150px">
+                </div>
+            </div>
+            <div class="modal-footer justify-content-between">
+                <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Close</button>
+                <button type="Submit" class="btn btn-primary btn-sm">Simpan</button>
+            </div>
+        </div>
+        <?php echo form_close() ?>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<!-- Modal edit -->
+<?php foreach ($baner as $key => $value) { ?>
+    <div class="modal fade" id="edit<?= $value['id_baner'] ?>">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Edit Baner</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <?php echo form_open_multipart('baner/editData/' . $value['id_baner'])  ?>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <div class="form-group">
+                            <label>Keterangan</label>
+                            <input name="ket" value="<?= $value['ket'] ?>" class="form-control" placeholder="Keterangan" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Ganti Baner (File Max 1024kb)</label>
+                            <input type="file" accept="image/*" id="preview_gambar" name="baner" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Preview</label>
+                            <img id="gambar_load" src="<?= base_url('assets/' . $value['baner'])?>" width="250px" height="150px">
+                        </div>
+                    </div>
+                    <div class="modal-footer justify-content-between">
+                        <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Close</button>
+                        <button type="Submit" class="btn btn-primary btn-sm">Simpan</button>
+                    </div>
+                </div>
+                <?php echo form_close() ?>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+    </div>
+<?php } ?>
+
+<!-- Modal delete -->
+<?php foreach ($baner as $key => $value) { ?>
+  <div class="modal fade" id="delete<?= $value['id_baner'] ?>">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Hapus Baner</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Apakah Anda Ingin Menghapus <b><?= $value['baner'] ?></b> ?
+        </div>
+        <div class="modal-footer justify-content-between">
+          <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Close</button>
+          <a href="<?= base_url('baner/deleteData/' . $value['id_baner']) ?>" class="btn btn-danger btn-sm">Delete</a>
+        </div>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+  </div>
+<?php } ?>
+<?= $this->endSection() ?>
