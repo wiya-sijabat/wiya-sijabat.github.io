@@ -1,0 +1,32 @@
+CRITICAL - 2022-04-27 02:57:52 --> Invalid file: template_frontend.php
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /media/data/tkj12/tkj26/PPDB/app/Controllers/Home.php(9): view()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#5 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-27 03:01:53 --> Undefined variable: title
+#0 /media/data/tkj12/tkj26/PPDB/app/Views/templet/template_frontend.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(210): include('/media/data/tkj...')
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /media/data/tkj12/tkj26/PPDB/app/Controllers/Home.php(12): view()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#7 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-27 03:47:14 --> Invalid file: templet/template_backend.php
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /media/data/tkj12/tkj26/PPDB/app/Controllers/Admin.php(11): view()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->index()
+#5 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

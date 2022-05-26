@@ -1,0 +1,46 @@
+CRITICAL - 2022-05-14 00:39:33 --> Undefined property: App\Controllers\Ppdb::$ModelTa
+#0 /media/data/tkj12/tkj26/PPDB/app/Controllers/Ppdb.php(96): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Ppdb->loginSiswa()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-14 01:32:27 --> toolbar filter must have a matching alias defined.
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Filters/Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Filters/Filters.php(244): CodeIgniter\Filters\Filters->processAliasesToClass()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Filters/Filters.php(163): CodeIgniter\Filters\Filters->initialize()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-14 01:32:32 --> toolbar filter must have a matching alias defined.
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Filters/Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Filters/Filters.php(244): CodeIgniter\Filters\Filters->processAliasesToClass()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Filters/Filters.php(163): CodeIgniter\Filters\Filters->initialize()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(393): CodeIgniter\Filters\Filters->run()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-14 02:02:20 --> Table 'ppdb_online_ci4.siswa' doesn't exist
+CRITICAL - 2022-05-14 02:02:20 --> Table 'ppdb_online_ci4.siswa' doesn't exist
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/data/tkj12/tkj26/PPDB/app/Models/ModelAuth.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/data/tkj12/tkj26/PPDB/app/Controllers/Auth.php(108): App\Models\ModelAuth->login_siswa()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->cek_login_siswa()
+#7 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-14 03:42:48 --> syntax error, unexpected '}', expecting ';' or '{'
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /media/data/tkj12/tkj26/PPDB/app/Controllers/Pendaftaran.php(15): spl_autoload_call()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Pendaftaran->__construct()
+#5 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,135 @@
+CRITICAL - 2022-05-13 02:03:24 --> syntax error, unexpected '$this' (T_VARIABLE)
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 02:03:48 --> syntax error, unexpected '$this' (T_VARIABLE)
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 08:37:27 --> Class 'App\Models\Modelta' not found
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Ppdb->__construct()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 08:37:34 --> Class 'App\Models\Modelta' not found
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Ppdb->__construct()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 08:39:36 --> Class 'App\Models\Modelsiswa' not found
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Ppdb->__construct()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-13 09:08:02 --> Undefined variable: ta
+#0 /media/data/tkj12/tkj26/PPDB/app/Views/v_pendaftaran.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(210): include('/media/data/tkj...')
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/data/tkj12/tkj26/PPDB/app/Controllers/Ppdb.php(27): view()
+#5 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Ppdb->pendaftaran()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-13 21:33:08 --> Undefined property: App\Controllers\Ppdb::$ModelTa
+#0 /media/data/tkj12/tkj26/PPDB/app/Controllers/Ppdb.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Ppdb->pendaftaran()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 21:37:08 --> Undefined property: App\Controllers\Ppdb::$ModelTa
+#0 /media/data/tkj12/tkj26/PPDB/app/Controllers/Ppdb.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Ppdb->pendaftaran()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 21:37:11 --> Undefined property: App\Controllers\Ppdb::$ModelTa
+#0 /media/data/tkj12/tkj26/PPDB/app/Controllers/Ppdb.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Ppdb->pendaftaran()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-13 21:39:47 --> Trying to access array offset on value of type null
+#0 /media/data/tkj12/tkj26/PPDB/app/Views/v_pendaftaran.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(210): include('/media/data/tkj...')
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/data/tkj12/tkj26/PPDB/app/Controllers/Ppdb.php(25): view()
+#5 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Ppdb->pendaftaran()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-13 22:12:32 --> Trying to access array offset on value of type null
+#0 /media/data/tkj12/tkj26/PPDB/app/Views/templet/template_frontend.php(88): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(210): include('/media/data/tkj...')
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /media/data/tkj12/tkj26/PPDB/app/Controllers/Home.php(24): view()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#7 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-13 22:44:32 --> Trying to access array offset on value of type null
+#0 /media/data/tkj12/tkj26/PPDB/app/Views/templet/template_frontend.php(88): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(210): include('/media/data/tkj...')
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /media/data/tkj12/tkj26/PPDB/app/Controllers/Home.php(24): view()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#7 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-13 22:46:23 --> Trying to access array offset on value of type null
+#0 /media/data/tkj12/tkj26/PPDB/app/Views/templet/template_frontend.php(88): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(210): include('/media/data/tkj...')
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /media/data/tkj12/tkj26/PPDB/app/Controllers/Home.php(24): view()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#7 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-13 22:51:34 --> Trying to access array offset on value of type null
+#0 /media/data/tkj12/tkj26/PPDB/app/Views/templet/template_frontend.php(88): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(210): include('/media/data/tkj...')
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /media/data/tkj12/tkj26/PPDB/app/Controllers/Home.php(24): view()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#7 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-13 23:02:58 --> Trying to access array offset on value of type null
+#0 /media/data/tkj12/tkj26/PPDB/app/Views/templet/template_frontend.php(88): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(210): include('/media/data/tkj...')
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /media/data/tkj12/tkj26/PPDB/app/Controllers/Home.php(24): view()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#7 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

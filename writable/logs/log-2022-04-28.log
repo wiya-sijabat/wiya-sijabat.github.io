@@ -1,0 +1,236 @@
+CRITICAL - 2022-04-28 09:18:22 --> Call to undefined function form_open()
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /media/data/tkj12/tkj26/PPDB/app/Controllers/Auth.php(21): view()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->login()
+#5 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-28 09:30:16 --> Password is not a valid rule.
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Validation/Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /media/data/tkj12/tkj26/PPDB/app/Controllers/Auth.php(29): CodeIgniter\Controller->validate()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->cek_login_user()
+#5 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-28 09:30:50 --> Password is not a valid rule.
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Validation/Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /media/data/tkj12/tkj26/PPDB/app/Controllers/Auth.php(29): CodeIgniter\Controller->validate()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->cek_login_user()
+#5 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-28 09:31:29 --> required  is not a valid rule.
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Validation/Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /media/data/tkj12/tkj26/PPDB/app/Controllers/Auth.php(29): CodeIgniter\Controller->validate()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->cek_login_user()
+#5 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-28 09:41:25 --> Undefined variable: validation
+#0 /media/data/tkj12/tkj26/PPDB/app/Views/v_login_user.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(210): include('/media/data/tkj...')
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/data/tkj12/tkj26/PPDB/app/Controllers/Auth.php(22): view()
+#5 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->login()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-28 09:41:32 --> Undefined variable: validation
+#0 /media/data/tkj12/tkj26/PPDB/app/Views/v_login_user.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(210): include('/media/data/tkj...')
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/data/tkj12/tkj26/PPDB/app/Controllers/Auth.php(22): view()
+#5 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->login()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-28 09:41:35 --> Undefined variable: validation
+#0 /media/data/tkj12/tkj26/PPDB/app/Views/v_login_user.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(210): include('/media/data/tkj...')
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/data/tkj12/tkj26/PPDB/app/Controllers/Auth.php(22): view()
+#5 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->login()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-28 09:41:43 --> Undefined variable: validation
+#0 /media/data/tkj12/tkj26/PPDB/app/Views/v_login_user.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(210): include('/media/data/tkj...')
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/data/tkj12/tkj26/PPDB/app/Controllers/Auth.php(22): view()
+#5 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->login()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-28 09:43:40 --> Undefined variable: validation
+#0 /media/data/tkj12/tkj26/PPDB/app/Views/v_login_user.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(210): include('/media/data/tkj...')
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/data/tkj12/tkj26/PPDB/app/Controllers/Auth.php(22): view()
+#5 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->login()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-28 09:58:17 --> required  is not a valid rule.
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Validation/Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /media/data/tkj12/tkj26/PPDB/app/Controllers/Auth.php(29): CodeIgniter\Controller->validate()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->cek_login_user()
+#5 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-28 09:58:35 --> required  is not a valid rule.
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Validation/Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /media/data/tkj12/tkj26/PPDB/app/Controllers/Auth.php(29): CodeIgniter\Controller->validate()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->cek_login_user()
+#5 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-28 21:11:23 --> required  is not a valid rule.
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Validation/Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /media/data/tkj12/tkj26/PPDB/app/Controllers/Auth.php(29): CodeIgniter\Controller->validate()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->cek_login_user()
+#5 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-28 21:50:03 --> Undefined property: App\Controllers\Auth::$ModelAuth
+#0 /media/data/tkj12/tkj26/PPDB/app/Controllers/Auth.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->cek_login_user()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-28 21:50:47 --> You must set the database table to be used with your query.
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Model.php(545): CodeIgniter\Database\BaseConnection->table()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /media/data/tkj12/tkj26/PPDB/app/Models/ModeAuth.php(11): CodeIgniter\Model->__call()
+#3 /media/data/tkj12/tkj26/PPDB/app/Controllers/Auth.php(47): App\Models\ModeAuth->login_user()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->cek_login_user()
+#5 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-28 21:54:44 --> Undefined property: App\Controllers\Auth::$ModelAuth
+#0 /media/data/tkj12/tkj26/PPDB/app/Controllers/Auth.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->cek_login_user()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-28 22:00:49 --> You must set the database table to be used with your query.
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Model.php(545): CodeIgniter\Database\BaseConnection->table()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /media/data/tkj12/tkj26/PPDB/app/Models/ModeAuth.php(11): CodeIgniter\Model->__call()
+#3 /media/data/tkj12/tkj26/PPDB/app/Controllers/Auth.php(47): App\Models\ModeAuth->login_user()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->cek_login_user()
+#5 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-28 22:01:28 --> You must set the database table to be used with your query.
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Model.php(545): CodeIgniter\Database\BaseConnection->table()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /media/data/tkj12/tkj26/PPDB/app/Models/ModeAuth.php(11): CodeIgniter\Model->__call()
+#3 /media/data/tkj12/tkj26/PPDB/app/Controllers/Auth.php(47): App\Models\ModeAuth->login_user()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->cek_login_user()
+#5 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-28 22:03:17 --> You must set the database table to be used with your query.
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Model.php(545): CodeIgniter\Database\BaseConnection->table()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /media/data/tkj12/tkj26/PPDB/app/Models/ModeAuth.php(11): CodeIgniter\Model->__call()
+#3 /media/data/tkj12/tkj26/PPDB/app/Controllers/Auth.php(47): App\Models\ModeAuth->login_user()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->cek_login_user()
+#5 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-28 22:13:15 --> You must set the database table to be used with your query.
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Model.php(545): CodeIgniter\Database\BaseConnection->table()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /media/data/tkj12/tkj26/PPDB/app/Models/ModeAuth.php(11): CodeIgniter\Model->__call()
+#3 /media/data/tkj12/tkj26/PPDB/app/Controllers/Auth.php(47): App\Models\ModeAuth->login_user()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->cek_login_user()
+#5 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-28 22:16:03 --> Undefined property: App\Controllers\Auth::$ModeAuth
+#0 /media/data/tkj12/tkj26/PPDB/app/Controllers/Auth.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->cek_login_user()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-28 22:16:27 --> Undefined property: App\Controllers\Auth::$Modeauth
+#0 /media/data/tkj12/tkj26/PPDB/app/Controllers/Auth.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->cek_login_user()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-28 22:24:55 --> You must set the database table to be used with your query.
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Model.php(545): CodeIgniter\Database\BaseConnection->table()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /media/data/tkj12/tkj26/PPDB/app/Models/ModeAuth.php(11): CodeIgniter\Model->__call()
+#3 /media/data/tkj12/tkj26/PPDB/app/Controllers/Auth.php(47): App\Models\ModeAuth->login_user()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->cek_login_user()
+#5 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-28 22:30:46 --> You must set the database table to be used with your query.
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Model.php(545): CodeIgniter\Database\BaseConnection->table()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /media/data/tkj12/tkj26/PPDB/app/Models/ModeAuth.php(11): CodeIgniter\Model->__call()
+#3 /media/data/tkj12/tkj26/PPDB/app/Controllers/Auth.php(47): App\Models\ModeAuth->login_user()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->cek_login_user()
+#5 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-28 22:34:14 --> Class 'App\Models\ModeAuth' not found
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Auth->__construct()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-28 22:36:21 --> Undefined property: App\Controllers\Auth::$ModeAuth
+#0 /media/data/tkj12/tkj26/PPDB/app/Controllers/Auth.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Auth->cek_login_user()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

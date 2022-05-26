@@ -1,0 +1,166 @@
+CRITICAL - 2022-05-11 01:53:59 --> Could not move file phpWYrtv3 to foto/ ()
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+#1 /media/data/tkj12/tkj26/PPDB/app/Controllers/User.php(37): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\User->insertData()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-11 01:54:41 --> Could not move file phpgY8hib to foto/ ()
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+#1 /media/data/tkj12/tkj26/PPDB/app/Controllers/User.php(37): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\User->insertData()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-11 01:56:01 --> Could not move file phpQTKSFf to foto/ ()
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+#1 /media/data/tkj12/tkj26/PPDB/app/Controllers/User.php(37): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\User->insertData()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-11 02:07:28 --> Could not move file phpr8rNSE to foto/ ()
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+#1 /media/data/tkj12/tkj26/PPDB/app/Controllers/User.php(37): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\User->insertData()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-11 02:13:08 --> Could not move file phprZtr4D to foto/ ()
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+#1 /media/data/tkj12/tkj26/PPDB/app/Controllers/User.php(37): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\User->insertData()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-11 02:15:13 --> The original file is not a valid file.
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /media/data/tkj12/tkj26/PPDB/app/Controllers/User.php(37): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\User->insertData()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-11 02:16:45 --> The original file is not a valid file.
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /media/data/tkj12/tkj26/PPDB/app/Controllers/User.php(37): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\User->insertData()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-11 02:17:03 --> Could not move file phpq27IEb to foto/ ()
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+#1 /media/data/tkj12/tkj26/PPDB/app/Controllers/User.php(37): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\User->insertData()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-11 02:55:19 --> Undefined variable: pendidikan
+#0 /media/data/tkj12/tkj26/PPDB/app/Views/admin/v_penghasilan.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(210): include('/media/data/tkj...')
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/data/tkj12/tkj26/PPDB/app/Controllers/Penghasilan.php(23): view()
+#5 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Penghasilan->index()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-11 04:07:18 --> Undefined property: App\Controllers\Admin::$Modeladmin
+#0 /media/data/tkj12/tkj26/PPDB/app/Controllers/Admin.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->setting()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-11 04:08:27 --> Table 'ppdb_online_ci4.tbl_setting' doesn't exist
+CRITICAL - 2022-05-11 04:08:27 --> Table 'ppdb_online_ci4.tbl_setting' doesn't exist
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/data/tkj12/tkj26/PPDB/app/Models/ModelAdmin.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/data/tkj12/tkj26/PPDB/app/Controllers/Admin.php(31): App\Models\ModelAdmin->detailSetting()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->setting()
+#7 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-11 04:39:40 --> Table 'ppdb_online_ci4.tbl_setting' doesn't exist
+CRITICAL - 2022-05-11 04:39:40 --> Table 'ppdb_online_ci4.tbl_setting' doesn't exist
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/data/tkj12/tkj26/PPDB/app/Models/ModelAdmin.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/data/tkj12/tkj26/PPDB/app/Controllers/Admin.php(31): App\Models\ModelAdmin->detailSetting()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->setting()
+#7 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-11 04:39:45 --> Table 'ppdb_online_ci4.tbl_setting' doesn't exist
+CRITICAL - 2022-05-11 04:39:45 --> Table 'ppdb_online_ci4.tbl_setting' doesn't exist
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/data/tkj12/tkj26/PPDB/app/Models/ModelAdmin.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/data/tkj12/tkj26/PPDB/app/Controllers/Admin.php(31): App\Models\ModelAdmin->detailSetting()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->setting()
+#7 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-11 04:56:58 --> Table 'ppdb_online_ci4.tbl_setting' doesn't exist
+CRITICAL - 2022-05-11 04:56:58 --> Table 'ppdb_online_ci4.tbl_setting' doesn't exist
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/data/tkj12/tkj26/PPDB/app/Models/ModelAdmin.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/data/tkj12/tkj26/PPDB/app/Controllers/Admin.php(31): App\Models\ModelAdmin->detailSetting()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->setting()
+#7 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-11 04:59:51 --> Undefined index: no_telepon
+#0 /media/data/tkj12/tkj26/PPDB/app/Views/admin/v_setting.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(210): include('/media/data/tkj...')
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/data/tkj12/tkj26/PPDB/app/Controllers/Admin.php(33): view()
+#5 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->setting()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-11 05:04:02 --> Unknown column 'no_telepon' in 'field list'
+CRITICAL - 2022-05-11 05:04:02 --> Unknown column 'no_telepon' in 'field list'
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query()
+#4 /media/data/tkj12/tkj26/PPDB/app/Models/ModelAdmin.php(20): CodeIgniter\Database\BaseBuilder->update()
+#5 /media/data/tkj12/tkj26/PPDB/app/Controllers/Admin.php(72): App\Models\ModelAdmin->saveSetting()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->saveSetting()
+#7 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-11 05:08:07 --> unlink(./logo/logo1.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/data/tkj12/tkj26/PPDB/app/Controllers/Admin.php(56): unlink()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->saveSetting()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -1,0 +1,24 @@
+CRITICAL - 2022-05-09 02:18:10 --> Invalid file: templet/template-backend-admin.php
+#0 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /media/data/tkj12/tkj26/PPDB/app/Controllers/Pekerjaan.php(24): view()
+#4 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Pekerjaan->index()
+#5 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-09 02:26:25 --> Undefined property: App\Controllers\Pekerjaan::$Modelpekerjaan
+#0 /media/data/tkj12/tkj26/PPDB/app/Controllers/Pekerjaan.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Pekerjaan->deleteData()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 02:26:49 --> Undefined property: App\Controllers\Pekerjaan::$Modelpekerjaan
+#0 /media/data/tkj12/tkj26/PPDB/app/Controllers/Pekerjaan.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Pekerjaan->deleteData()
+#2 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /media/data/tkj12/tkj26/PPDB/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/data/tkj12/tkj26/PPDB/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
